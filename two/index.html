@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            padding: auto;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1f1f1f;
+            flex-direction: column;
+        }
+        #red-box{
+            width: 100%;
+            max-width: 450px;
+            height: 450px;
+            background-color: red;
+        }
+        #keyDn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 125px;
+            width: 100%;
+            max-width: 700px;
+            padding: 20px;
+            margin: 40px;
+            font-size: 100px;
+            font-family: monospace;
+            font-weight: 100;
+            border: none;
+            outline: none;
+            caret-animation: manual;
+        }
+        .bg{
+            background-color: rgb(75, 75, 75);
+        }
+        .enteredLetter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 100%;
+            max-width: 700px;
+            padding: 20px;
+            margin: 40px;
+            font-size: 175px;
+            font-family: monospace;
+        }
+        .counter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 130px;
+            width: 100%;
+            max-width: 700px;
+            padding: 20px;
+            margin: 40px;
+            font-size: 100px;
+            font-family: monospace;
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="red-box"></div> -->
+    <div class="enteredLetter"></div>
+    <input type="text" name="keyDn" id="keyDn" autocomplete="off" placeholder="typeAnything!">
+    <div class="counter"></div>
+    <script src="script2.js"></script>
+</body>
+</html>
